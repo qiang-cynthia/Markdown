@@ -4,7 +4,7 @@ README
 
 
 # 目录
----
+
 * [横线](#横线)
 * [标题](#标题)
 * [文本](#文本)
@@ -35,7 +35,7 @@ README
 * [diff语法](#diff语法)
 
 ## 横线
------------
+
 ***、---、___可以显示横线效果
 
 ***
@@ -45,7 +45,7 @@ ___
 
 
 ## 标题
-------
+
 
 # 一级标题  
 ## 二级标题  
@@ -56,7 +56,7 @@ ___
 
 
 ## 文本
-------
+
 ### 普通文本
 这是一段普通的文本
 
@@ -115,7 +115,7 @@ ___
     斜体、粗体、删除线可混合使用
 
 ## 图片
-------
+
 基本格式：
 ```
 ![alt](URL title)
@@ -141,7 +141,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
 
 ## 链接
-------
+
 ### 链接外部URL
 
 |#|语法|效果|
@@ -245,7 +245,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >>>>> 满二叉树
 
 ## 代码高亮
-----------
+
 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
 ```Java
 public static void main(String[]args){} //Java
@@ -263,7 +263,7 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 string &operator+(const string& A,const string& B) //cpp
 ```
 ## 表格
---------
+
 
 表头1  | 表头2|
 --------- | --------|
@@ -301,7 +301,7 @@ string &operator+(const string& A,const string& B) //cpp
 |![baidu][baidu-logo] | 百度|
 
 ## 表情
-----------
+
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 
 比如`:blush:`，可以显示:blush:。
@@ -311,7 +311,7 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
 
 ## diff语法
----------
+
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
 GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
 
