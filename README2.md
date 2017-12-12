@@ -2,21 +2,14 @@ README
 ===========================
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
 
-****
-	
-|Author|果冻虾仁|
-|---|---
-|E-mail|Jelly.K.Wang@qq.com
 
-
-****
-## 目录
+# 目录
+---
 * [横线](#横线)
 * [标题](#标题)
 * [文本](#文本)
     * 普通文本
-    * 单行文本
-    * 多行文本
+    * 文本块
     * 文字高亮
     * 换行
     * 斜体
@@ -41,7 +34,7 @@ README
 * [表情](#表情)
 * [diff语法](#diff语法)
 
-### 横线
+## 横线
 -----------
 ***、---、___可以显示横线效果
 
@@ -51,7 +44,7 @@ ___
 
 
 
-标题
+## 标题
 ------
 
 # 一级标题  
@@ -62,7 +55,7 @@ ___
 ###### 六级标题  
 
 
-文本
+## 文本
 ------
 ### 普通文本
 这是一段普通的文本
@@ -72,7 +65,8 @@ ___
 在在一行开头或连续几行的文本开头加入1个Tab或者4个空格。
 
     Hello,大家好，我是果冻虾仁。
-	
+
+
 
     欢迎到访
     很高兴见到您
@@ -86,6 +80,7 @@ ___
 你可以在知乎、CSDN、简书搜索【果冻虾仁】找到我
 ```
 该语法也可以实现代码高亮，见[代码高亮](#代码高亮)
+
 ### 文字高亮
 文字高亮功能能使行内部分文字高亮，使用一对反引号。
 语法：
@@ -95,7 +90,7 @@ ___
 效果：`linux` `网络编程` `socket` `epoll`
 
 也适合做一篇文章的tag
-#### 换行
+### 换行
 直接回车不能换行，  
 可以在上一行文本后面补两个空格，  
 这样下一行的文本就换行了。
@@ -103,7 +98,7 @@ ___
 或者就是在两行文本直接加一个空行。
 
 也能实现换行效果，不过这个行间距有点大。
-#### 斜体、粗体、删除线
+### 斜体、粗体、删除线
 
 |语法|效果|
 |----|-----|
@@ -119,7 +114,7 @@ ___
 
     斜体、粗体、删除线可混合使用
 
-图片
+## 图片
 ------
 基本格式：
 ```
@@ -145,7 +140,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 [foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 ```
 
-链接
+## 链接
 ------
 ### 链接外部URL
 
@@ -198,7 +193,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 - 别名：隔壁老王
 * 英文名：Jelly
 
-### 多级无序列表
+#### 多级无序列表
 * 编程语言
     * 脚本语言
         * Python
@@ -249,7 +244,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >>>> 平衡二叉树
 >>>>> 满二叉树
 
-代码高亮
+## 代码高亮
 ----------
 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
 ```Java
@@ -267,7 +262,7 @@ document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
 ```
-表格
+## 表格
 --------
 
 表头1  | 表头2|
@@ -305,7 +300,7 @@ string &operator+(const string& A,const string& B) //cpp
 | ---- | ---- |
 |![baidu][baidu-logo] | 百度|
 
-表情
+## 表情
 ----------
 Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
 
@@ -315,7 +310,7 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 
 但是这个网页每次都打开**奇慢**。。所以我整理到了本repo中，大家可以直接在此查看[emoji](./emoji.md)。
 
-diff语法
+## diff语法
 ---------
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
 GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
